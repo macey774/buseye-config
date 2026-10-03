@@ -1,0 +1,193 @@
+{
+  "schema": 1,
+  "stops": [
+    {
+      "id": "cite-sic",
+      "name": "Arrêt Cité SIC",
+      "lat": 4.07245,
+      "lng": 9.69982
+    },
+    {
+      "id": "bonaberi-pont",
+      "name": "Bonaberi Pont",
+      "lat": 4.06542,
+      "lng": 9.69025
+    },
+    {
+      "id": "campus-c",
+      "name": "Campus C",
+      "lat": 4.039735,
+      "lng": 9.751857
+    },
+    {
+      "id": "carrefour-ari",
+      "name": "Carrefour Ari",
+      "lat": 3.995235,
+      "lng": 9.782917
+    },
+    {
+      "id": "carrefour-chefferie",
+      "name": "Carrefour Chefferie",
+      "lat": 4.024806,
+      "lng": 9.769245
+    },
+    {
+      "id": "carrefour-cite-des-palmiers",
+      "name": "Carrefour Cité des Palmiers",
+      "lat": 4.062345,
+      "lng": 9.71256
+    },
+    {
+      "id": "carrefour-ndobo",
+      "name": "Carrefour Ndobo",
+      "lat": 4.07234,
+      "lng": 9.68512
+    },
+    {
+      "id": "carrefour-ndokoti",
+      "name": "Carrefour Ndokoti",
+      "lat": 4.04512,
+      "lng": 9.730245
+    },
+    {
+      "id": "carrefour-nyalla-pariso",
+      "name": "Carrefour Nyalla Pariso",
+      "lat": 4.024639,
+      "lng": 9.793029
+    },
+    {
+      "id": "chateau-nyalla",
+      "name": "Château Nyalla",
+      "lat": 4.03333,
+      "lng": 9.78629
+    },
+    {
+      "id": "college-de-la-salle",
+      "name": "Collège De La Salle",
+      "lat": 4.05321,
+      "lng": 9.70388
+    },
+    {
+      "id": "entree-bekoko",
+      "name": "Entrée Bekoko",
+      "lat": 4.08054,
+      "lng": 9.6782
+    },
+    {
+      "id": "entree-bonamoussadi",
+      "name": "Entrée Bonamoussadi",
+      "lat": 4.058431,
+      "lng": 9.72102
+    },
+    {
+      "id": "entree-maetur-yassa",
+      "name": "Entrée MAETUR Yassa",
+      "lat": 4.00937,
+      "lng": 9.800646
+    },
+    {
+      "id": "poste-centrale-akwa",
+      "name": "Poste Centrale Akwa",
+      "lat": 4.05182,
+      "lng": 9.71043
+    },
+    {
+      "id": "rails-nyalla",
+      "name": "Rails Nyalla",
+      "lat": 4.034902,
+      "lng": 9.777759
+    },
+    {
+      "id": "saint-nicolas",
+      "name": "Saint Nicolas",
+      "lat": 4.02008,
+      "lng": 9.761518
+    },
+    {
+      "id": "total-bonamoussadi",
+      "name": "Total Bonamoussadi",
+      "lat": 4.06812,
+      "lng": 9.70483
+    },
+    {
+      "id": "total-danger",
+      "name": "Total Danger",
+      "lat": 4.012732,
+      "lng": 9.757205
+    },
+    {
+      "id": "total-nkolmbong",
+      "name": "Total Nkolmbong",
+      "lat": 4.018734,
+      "lng": 9.795956
+    },
+    {
+      "id": "tradex-borne-10",
+      "name": "Tradex Borne 10",
+      "lat": 3.998247,
+      "lng": 9.768313
+    },
+    {
+      "id": "tradex-yassa",
+      "name": "Tradex Yassa",
+      "lat": 4.001153,
+      "lng": 9.805164
+    },
+    {
+      "id": "marche-ndogpassi",
+      "name": "Marché Ndogpassi (Station Bocom)",
+      "lat": 4.007123,
+      "lng": 9.756094
+    }
+  ],
+  "lines": [
+    {
+      "id": "ndogpassi",
+      "name": "Ndogpassi",
+      "color": "#1E6FE0",
+      "stops": [
+        "carrefour-chefferie",
+        "saint-nicolas",
+        "total-danger",
+        "marche-ndogpassi"
+      ]
+    },
+    {
+      "id": "village",
+      "name": "Village",
+      "color": "#8E44AD",
+      "stops": [
+        "tradex-borne-10",
+        "carrefour-ari"
+      ]
+    },
+    {
+      "id": "yassa",
+      "name": "Yassa",
+      "color": "#D81B60",
+      "stops": [
+        "tradex-yassa",
+        "entree-maetur-yassa",
+        "total-nkolmbong"
+      ]
+    },
+    {
+      "id": "nyalla",
+      "name": "Nyalla",
+      "color": "#0FA3A3",
+      "stops": [
+        "carrefour-nyalla-pariso",
+        "chateau-nyalla",
+        "rails-nyalla"
+      ]
+    }
+  ],
+  "announcement": null,
+  "minVersion": "1.0.0",
+  "recommendedVersion": "1.0.0",
+  "updateUrl": "",
+  "settings": {
+    "passageRadiusMeters": 60,
+    "offlineAfterMinutes": 3
+  }
+}
