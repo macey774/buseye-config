@@ -16,8 +16,8 @@
     {
       "id": "campus-c",
       "name": "Campus C",
-      "lat": 4.039735,
-      "lng": 9.751857
+      "lat": 4.039613,
+      "lng": 9.752844
     },
     {
       "id": "carrefour-ari",
@@ -138,6 +138,24 @@
       "name": "Marché Ndogpassi (Station Bocom)",
       "lat": 4.007123,
       "lng": 9.756094
+    },
+    {
+      "id": "campus-a",
+      "name": "Campus A",
+      "lat": 4.041839,
+      "lng": 9.75453
+    },
+    {
+      "id": "campus-b",
+      "name": "Campus B",
+      "lat": 4.042432,
+      "lng": 9.753187
+    },
+    {
+      "id": "campus-numerique",
+      "name": "Campus Numérique",
+      "lat": 4.043743,
+      "lng": 9.753356
     }
   ],
   "lines": [
@@ -179,6 +197,17 @@
         "carrefour-nyalla-pariso",
         "chateau-nyalla",
         "rails-nyalla"
+      ]
+    },
+    {
+      "id": "mes-campus",
+      "name": "Campus",
+      "color": "#5B8C2A",
+      "stops": [
+        "campus-a",
+        "campus-b",
+        "campus-c",
+        "campus-numerique"
       ]
     }
   ],
@@ -374,9 +403,9 @@
       }
     ]
   },
-  "minVersion": "1.0.0",
-  "recommendedVersion": "1.0.0",
-  "updateUrl": "",
+  "minVersion": "1.0.1",
+  "recommendedVersion": "1.0.2",
+  "updateUrl": "https://github.com/macey774/buseye-config/releases/latest/download/BusEye.apk",
   "settings": {
     "passageRadiusMeters": 60,
     "offlineAfterMinutes": 3
