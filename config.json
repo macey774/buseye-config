@@ -182,7 +182,198 @@
       ]
     }
   ],
+  "shortcuts": [
+    {
+      "label": "Mes bus",
+      "icon": "bus",
+      "action": "my_buses"
+    },
+    {
+      "label": "Arrêts",
+      "icon": "place",
+      "action": "stops"
+    },
+    {
+      "label": "Lignes",
+      "icon": "route",
+      "action": "lines"
+    },
+    {
+      "label": "Horaires",
+      "icon": "schedule",
+      "action": "schedules"
+    }
+  ],
   "announcement": null,
+  "ads": [
+    {
+      "id": "exemple-desactive",
+      "placement": "home",
+      "advertiser": "Nom de l'annonceur",
+      "title": "Titre de la publicité (facultatif)",
+      "text": "Texte court de la publicité, 220 caractères maximum.",
+      "imageUrl": "",
+      "url": "https://example.com",
+      "cta": "En savoir plus",
+      "startsAt": "2020-01-01T00:00:00+01:00",
+      "expiresAt": "2020-01-02T00:00:00+01:00"
+    }
+  ],
+  "help": [
+    {
+      "id": "offline",
+      "title": "Pourquoi un bus est « hors ligne » ?",
+      "body": "Le bus n'a pas envoyé sa position depuis plusieurs minutes : boîtier éteint, bus au garage, zone sans réseau mobile ou panne. Dès que le signal revient, il repasse en ligne."
+    },
+    {
+      "id": "eta",
+      "title": "Comment est calculé le temps d'arrivée ?",
+      "body": "À partir de la distance entre le bus et l'arrêt, et d'une vitesse moyenne. C'est une estimation : la circulation, les arrêts et les détours peuvent la changer. Garde toujours une marge."
+    },
+    {
+      "id": "alerts",
+      "title": "Comment être prévenu quand le bus arrive ?",
+      "body": "Touche l'étoile d'un arrêt pour l'ajouter à tes favoris, puis vérifie dans Profil que les notifications sont activées. Les alertes ne partent que lorsque l'application est ouverte ou active en arrière-plan."
+    },
+    {
+      "id": "internet",
+      "title": "Que veut dire « Pas de connexion internet » ?",
+      "body": "Ton téléphone n'a pas d'Internet (données mobiles coupées, forfait épuisé ou Wi‑Fi sans accès). Les positions reprennent automatiquement quand la connexion revient. « Serveur de suivi indisponible » veut dire que l'Internet marche, mais que le serveur des bus ne répond pas."
+    },
+    {
+      "id": "schedules",
+      "title": "Les horaires sont-ils officiels ?",
+      "body": "Non. Ils sont reconstitués à partir des passages réels des bus près de chaque arrêt, d'après leur historique GPS. Ils montrent ce qui s'est passé, pas ce qui est garanti."
+    },
+    {
+      "id": "location",
+      "title": "Ma position n'apparaît pas",
+      "body": "Active le GPS du téléphone et autorise la localisation pour BusEye (Réglages du téléphone › Applications › BusEye › Autorisations). Sans elle, la carte marche, mais pas le « bus le plus proche »."
+    },
+    {
+      "id": "contact",
+      "title": "Un problème, une question ?",
+      "body": "Rejoins la communauté BusEye depuis Profil › Rejoindre la communauté : tu peux y signaler un souci ou poser ta question."
+    }
+  ],
+  "links": {
+    "community": "https://chat.whatsapp.com/ErYiROsxTnp7sSX8If9qWH"
+  },
+  "policy": {
+    "version": "1.1",
+    "date": "3 octobre 2026",
+    "highlights": [
+      "BusEye est une aide à l'information, pas une garantie : positions, estimations et horaires peuvent être inexacts, retardés ou indisponibles.",
+      "Vous restez seul responsable de vos déplacements et de vos retards, y compris si l'Application est en panne, affiche une information erronée ou présente un défaut de fonctionnement.",
+      "Votre position GPS reste sur votre téléphone : elle n'est envoyée à aucun serveur de BusEye.",
+      "L'Application peut afficher des publicités, toujours signalées « Sponsorisé ». Elles ne sont pas personnalisées et ne reçoivent aucune donnée sur vous."
+    ],
+    "sections": [
+      {
+        "title": "1. Objet et éditeur",
+        "paragraphs": [
+          "BusEye (l'« Application ») est une application mobile de suivi en temps réel des bus de l'Institut Universitaire du Golfe de Guinée (IUG). Elle est éditée par DomIA Engineering, junior entreprise affiliée à l'IUG (l'« Éditeur »).",
+          "En utilisant l'Application, vous (l'« Utilisateur ») reconnaissez avoir lu et accepté la présente politique de confidentialité et les présentes conditions d'utilisation."
+        ]
+      },
+      {
+        "title": "2. Nature du service",
+        "paragraphs": [
+          "L'Application affiche la position des bus à partir de boîtiers GPS installés à bord et transmise via un serveur de suivi. Les distances, les temps d'arrivée estimés et les horaires de passage sont des informations purement indicatives.",
+          "Les temps d'arrivée sont des estimations calculées à partir de la distance et de la vitesse. Les horaires de passage sont reconstitués à partir de l'historique GPS réel : ils ne constituent pas un horaire officiel.",
+          "L'Application ne constitue ni un engagement de l'IUG, ni un engagement de l'Éditeur concernant l'existence, la fréquence, les horaires ou les itinéraires du service de bus."
+        ]
+      },
+      {
+        "title": "3. Limites techniques, absence de garantie",
+        "paragraphs": [
+          "L'Application est fournie « en l'état » et « selon disponibilité ». Elle peut présenter des erreurs, des retards d'affichage, des interruptions ou des défauts de fonctionnement (bugs).",
+          "Parmi les causes possibles : perte du signal GPS ou GSM d'un boîtier, coupure ou saturation du réseau mobile, panne du serveur de suivi, batterie ou boîtier hors service, erreur de calcul, arrêt mal positionné, bus non équipé, mise à jour ou maintenance.",
+          "Les notifications peuvent être retardées, absentes ou supprimées par le système du téléphone (économie d'énergie, application fermée). Ne comptez jamais uniquement sur elles."
+        ]
+      },
+      {
+        "title": "4. Responsabilité de l'Utilisateur",
+        "paragraphs": [
+          "L'Utilisateur reste seul responsable de l'organisation de ses déplacements, de sa ponctualité, de ses retards et de ses absences (cours, travaux dirigés, examens, stages, rendez-vous ou toute autre obligation).",
+          "L'Utilisateur ne doit pas se reposer exclusivement sur l'Application et doit prévoir une marge de sécurité suffisante. S'il attend un bus qui ne vient pas, ou manque un bus, parce que l'Application était indisponible, inexacte ou défaillante, il en assume seul les conséquences, notamment un retard ou une absence à un cours ou à une évaluation.",
+          "Les informations affichées par l'Application ne constituent pas un justificatif de retard ou d'absence.",
+          "Dans les limites permises par la loi applicable, ni l'Éditeur ni l'IUG ne peuvent être tenus responsables des dommages directs ou indirects résultant de l'utilisation, de l'impossibilité d'utiliser ou du dysfonctionnement de l'Application."
+        ]
+      },
+      {
+        "title": "5. Sécurité personnelle",
+        "paragraphs": [
+          "Ne consultez pas l'Application en marchant sur la chaussée, en traversant une route ou en montant ou descendant d'un bus. Attendez le bus à l'arrêt, en sécurité, et restez attentif à votre environnement et à vos effets personnels."
+        ]
+      },
+      {
+        "title": "6. Données utilisées",
+        "paragraphs": [
+          "Localisation de votre téléphone : elle sert uniquement sur votre appareil, pour afficher votre position, trouver le bus et l'arrêt les plus proches et calculer des distances. Elle n'est pas envoyée à un serveur de BusEye. Votre dernière position connue est conservée sur le téléphone pour accélérer l'ouverture de l'Application.",
+          "Positions des bus : elles sont reçues depuis le serveur de suivi de l'Éditeur. Elles concernent les véhicules, pas les passagers.",
+          "Données enregistrées sur votre téléphone : nom et avatar choisis, statut, favoris, ligne préférée, thème, réglages de notifications, journal des notifications de la semaine et données de cache (dernier état des bus, horaires, fonds de carte, images publicitaires). Elles sont supprimées en désinstallant l'Application ou en effaçant ses données.",
+          "BusEye ne crée aucun compte et ne demande aucun mot de passe. L'Éditeur ne vend aucune donnée personnelle.",
+          "Services tiers : pour afficher la carte, votre téléphone contacte OpenStreetMap (plan) ou Esri (satellite). Pour recevoir les contenus mis à jour à distance (arrêts, lignes, annonces, publicités, textes), il contacte GitHub. Ces services peuvent voir votre adresse IP, et la zone consultée pour la carte, selon leurs propres politiques. Si vous rejoignez la communauté WhatsApp, les conditions de WhatsApp s'appliquent."
+        ]
+      },
+      {
+        "title": "7. Autorisations demandées",
+        "paragraphs": [
+          "Internet : nécessaire au fonctionnement de l'Application.",
+          "Localisation : facultative. Sans elle, les distances, le bus le plus proche et l'arrêt le plus proche ne sont pas disponibles.",
+          "Notifications : facultatives. Elles sont générées sur votre téléphone et se règlent dans Profil. Elles ne fonctionnent que lorsque l'Application est active."
+        ]
+      },
+      {
+        "title": "8. Publicité et liens externes",
+        "paragraphs": [
+          "L'Application peut afficher des publicités ou des contenus sponsorisés, toujours signalés « Sponsorisé ». Ils sont fournis par des annonceurs tiers, qui sont seuls responsables de leur contenu, de leurs offres et de leurs promesses.",
+          "L'Éditeur ne garantit pas les produits ou services annoncés et n'est pas partie aux échanges entre l'Utilisateur et un annonceur. Toute transaction se fait sous la seule responsabilité de l'Utilisateur.",
+          "Les publicités ne sont pas personnalisées : elles ne dépendent ni de votre position, ni de votre identité, ni de votre usage de l'Application, et BusEye ne transmet aucune donnée personnelle aux annonceurs.",
+          "Toucher une publicité ouvre un lien externe dans votre navigateur, après confirmation. Le site visité applique alors sa propre politique : soyez prudent avec les informations que vous y saisissez."
+        ]
+      },
+      {
+        "title": "9. Usage acceptable",
+        "paragraphs": [
+          "L'Application est destinée à un usage personnel et non commercial. Il est interdit de perturber ou de surcharger le service, d'extraire ou de réutiliser les accès au serveur de suivi, de contourner les protections de l'Application ou de copier son code ou son design.",
+          "L'Éditeur peut limiter ou suspendre l'accès en cas d'usage abusif."
+        ]
+      },
+      {
+        "title": "10. Propriété intellectuelle",
+        "paragraphs": [
+          "L'Application, son nom, son design et son code appartiennent à DomIA Engineering. Les données cartographiques appartiennent à leurs auteurs respectifs : © les contributeurs d'OpenStreetMap, imagerie © Esri, Maxar, Earthstar Geographics et la communauté GIS. Les publicités appartiennent à leurs annonceurs."
+        ]
+      },
+      {
+        "title": "11. Évolution du service et de la politique",
+        "paragraphs": [
+          "L'Éditeur peut modifier, suspendre ou arrêter tout ou partie du service, y compris sans préavis pour des raisons de maintenance. Certains contenus (arrêts, lignes, annonces, publicités, messages d'aide, textes) peuvent être mis à jour à distance, sans nouvelle installation.",
+          "La présente politique peut évoluer. En cas de changement important, une nouvelle acceptation vous sera demandée à l'ouverture suivante de l'Application."
+        ]
+      },
+      {
+        "title": "12. Droit applicable",
+        "paragraphs": [
+          "La présente politique est régie par le droit camerounais et par la législation applicable en matière de protection des données. En cas de différend, les parties recherchent d'abord une solution amiable, à défaut de quoi les juridictions camerounaises compétentes sont saisies."
+        ]
+      },
+      {
+        "title": "13. Contact",
+        "paragraphs": [
+          "Pour toute question, signalement ou demande relative à vos données, utilisez la communauté BusEye (Profil › Rejoindre la communauté) ou contactez DomIA Engineering au sein de l'IUG. Pour un espace publicitaire, passez par les mêmes canaux."
+        ]
+      },
+      {
+        "title": "14. Acceptation",
+        "paragraphs": [
+          "En cochant la case d'acceptation, l'Utilisateur reconnaît avoir lu et compris cette politique, notamment la section 4 relative à sa responsabilité, et l'accepte sans réserve. L'acceptation est enregistrée sur son téléphone avec la date et la version du texte."
+        ]
+      }
+    ]
+  },
   "minVersion": "1.0.0",
   "recommendedVersion": "1.0.0",
   "updateUrl": "",
