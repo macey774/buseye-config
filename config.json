@@ -404,7 +404,7 @@
     ]
   },
   "minVersion": "1.0.1",
-  "recommendedVersion": "1.0.2",
+  "recommendedVersion": "1.0.0",
   "updateUrl": "https://github.com/macey774/buseye-config/releases/latest/download/BusEye.apk",
   "settings": {
     "passageRadiusMeters": 60,
