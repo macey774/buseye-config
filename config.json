@@ -38,12 +38,6 @@
       "lng": 9.68512
     },
     {
-      "id": "carrefour-ndokoti",
-      "name": "Carrefour Ndokoti",
-      "lat": 4.04512,
-      "lng": 9.730245
-    },
-    {
       "id": "carrefour-nyalla-pariso",
       "name": "Carrefour Nyalla Pariso",
       "lat": 4.024639,
@@ -156,6 +150,18 @@
       "name": "Campus Numérique",
       "lat": 4.043718,
       "lng": 9.753349
+    },
+    {
+      "id": "ndokoti",
+      "name": "Ndokoti",
+      "lat": 4.044081,
+      "lng": 9.74518
+    },
+    {
+      "id": "parking",
+      "name": "Parking",
+      "lat": 4.040685,
+      "lng": 9.752838
     }
   ],
   "lines": [
