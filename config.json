@@ -240,10 +240,11 @@
     }
   ],
   "announcement": {
-    "id": "le-bus-socatur-104-accus-mv1z2nm8",
-    "message": "Le bus Socatur 104 accusera un légé retard, veuillez patienter !",
+    "id": "le-bus-socatur-104-ne-re-mv20sumk",
+    "message": "Le bus Socatur 104 ne reviendra pas !",
     "level": "info",
-    "expiresAt": "2026-10-10T07:00:00+01:00"
+    "expiresAt": "2026-10-10T08:15:00+01:00",
+    "dismissible": false
   },
   "ads": [
     {
