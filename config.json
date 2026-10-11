@@ -415,7 +415,7 @@
       }
     ]
   },
-  "minVersion": "1.0.0",
+  "minVersion": "1.1.0",
   "recommendedVersion": "1.1.0",
   "updateUrl": "https://github.com/macey774/buseye-config/releases/latest/download/BusEye.apk",
   "settings": {
