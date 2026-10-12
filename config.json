@@ -162,6 +162,24 @@
       "name": "Parking",
       "lat": 4.040685,
       "lng": 9.752838
+    },
+    {
+      "id": "carnaval",
+      "name": "Carnaval",
+      "lat": 4.014909,
+      "lng": 9.748678
+    },
+    {
+      "id": "combi",
+      "name": "Combi",
+      "lat": 4.016342,
+      "lng": 9.736656
+    },
+    {
+      "id": "marche-dakar",
+      "name": "Marché Dakar",
+      "lat": 4.024096,
+      "lng": 9.735381
     }
   ],
   "lines": [
