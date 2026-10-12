@@ -240,10 +240,10 @@
     }
   ],
   "announcement": {
-    "id": "le-suivi-des-bus-est-mom-mv4wm4t7",
+    "id": "le-suivi-des-bus-est-mom-mv4wp2o2",
     "message": "Le suivi des bus est momentanément indisponible.",
     "level": "warning",
-    "expiresAt": "2026-10-12T08:30:00+01:00",
+    "expiresAt": "2026-10-12T18:00:00+01:00",
     "dismissible": false
   },
   "ads": [
