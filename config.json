@@ -240,10 +240,11 @@
     }
   ],
   "announcement": {
-    "id": "le-suivi-des-bus-est-mom-mv4u2drm",
+    "id": "le-suivi-des-bus-est-mom-mv4u90pi",
     "message": "Le suivi des bus est momentanément indispensable.",
     "level": "warning",
-    "expiresAt": "2026-10-10T08:15:00+01:00"
+    "expiresAt": "2026-10-10T08:15:00+01:00",
+    "dismissible": false
   },
   "ads": [
     {
