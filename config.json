@@ -266,16 +266,15 @@
   },
   "ads": [
     {
-      "id": "exemple-desactive",
+      "id": "institut-universitaire-du-golfe-de-g",
       "placement": "home",
-      "advertiser": "Nom de l'annonceur",
-      "title": "Titre de la publicité (facultatif)",
-      "text": "Texte court de la publicité, 220 caractères maximum.",
-      "imageUrl": "",
-      "url": "https://example.com",
-      "cta": "En savoir plus",
-      "startsAt": "2020-01-01T00:00:00+01:00",
-      "expiresAt": "2020-01-02T00:00:00+01:00"
+      "advertiser": "Institut Universitaire du Golfe de Guinée",
+      "title": "FELAURE 2026",
+      "text": "L'IUG célèbre ses LAURÉATS\nL'excellence n'est pas une option, c'est notre Héritage !",
+      "imageUrl": "https://raw.githubusercontent.com/macey774/buseye-config/main/ads/institut-universitaire-d-mv6d1s7d.jpg",
+      "url": "https://www.facebook.com/share/v/18htcGK4dA/?mibextid=wwXIfr",
+      "startsAt": "2026-10-13T08:26:00+01:00",
+      "expiresAt": "2026-11-16T09:00:00+01:00"
     }
   ],
   "help": [
