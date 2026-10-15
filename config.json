@@ -258,11 +258,10 @@
     }
   ],
   "announcement": {
-    "id": "le-suivi-des-bus-est-mom-mv4wp2o2",
-    "message": "Le suivi des bus est momentanément indisponible.",
-    "level": "warning",
-    "expiresAt": "2026-10-12T18:00:00+01:00",
-    "dismissible": false
+    "id": "etudiants-des-lignes-vil-mv93br90",
+    "message": "Étudiants des lignes village, Yassa, Nyalla, etc. Votre bus était à la station essence donc bien vouloir patienter.",
+    "level": "info",
+    "expiresAt": "2026-10-15T06:45:00+01:00"
   },
   "ads": [
     {
