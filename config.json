@@ -231,7 +231,26 @@
         "campus-a",
         "campus-b",
         "campus-c",
-        "campus-numerique"
+        "campus-numerique",
+        "parking"
+      ]
+    },
+    {
+      "id": "dakar",
+      "name": "Dakar",
+      "color": "#EF6C00",
+      "stops": [
+        "marche-dakar",
+        "combi",
+        "carnaval"
+      ]
+    },
+    {
+      "id": "ndokoti",
+      "name": "Ndokoti",
+      "color": "#6D4C41",
+      "stops": [
+        "ndokoti"
       ]
     }
   ],
