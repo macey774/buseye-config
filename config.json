@@ -304,6 +304,18 @@
       "cta": "Commander",
       "startsAt": "2026-11-25T18:53:37+01:00",
       "expiresAt": "2026-12-25T18:53:37+01:00"
+    },
+    {
+      "id": "maison-restaurant-le-campus-202611",
+      "placement": "home",
+      "advertiser": "Maison Restaurant Le Campus",
+      "title": "-20 % sur le menu étudiant",
+      "text": "Amertume",
+      "imageUrl": "https://raw.githubusercontent.com/macey774/buseye-config/main/ads/maison-restaurant-le-cam-mwwfftaf.png",
+      "url": "https://wa.me/693459216?text=Bonjour%2C%20je%20viens%20de%20BusEye",
+      "cta": "Commander",
+      "startsAt": "2026-11-25T18:57:26+01:00",
+      "expiresAt": "2026-12-25T18:57:26+01:00"
     }
   ],
   "help": [
