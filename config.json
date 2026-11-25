@@ -282,7 +282,19 @@
     "level": "info",
     "expiresAt": "2026-10-15T06:45:00+01:00"
   },
-  "ads": [],
+  "ads": [
+    {
+      "id": "restaurant-le-campus-202611",
+      "placement": "home",
+      "advertiser": "Restaurant Le Campus",
+      "title": "-20 % sur le menu étudiant",
+      "text": "Amertume",
+      "url": "https://wa.me/693459216?text=Bonjour%2C%20je%20viens%20de%20BusEye",
+      "cta": "Commander",
+      "startsAt": "2026-11-25T18:44:00+01:00",
+      "expiresAt": "2026-12-02T23:59:00+01:00"
+    }
+  ],
   "help": [
     {
       "id": "offline",
